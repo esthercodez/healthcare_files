@@ -6,7 +6,6 @@
 .introduction{
     display:flex;
     color:gray;
-    position: sticky;
     padding:20px;
     border-bottom: 1px solid gray;
     font-size: 15px;
@@ -28,6 +27,12 @@
 }
 header{
     display:flex;
+    position: sticky;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    background-color: white; z-index: 5;
 }
 header ul li{
     list-style-type: none;
@@ -104,4 +109,20 @@ main section h2{
     width:500px;
     margin:30px;
     line-height: 20px;
+}
+main{
+    background-color: snow;
+    padding:100px;
+}
+#aboutus{
+    display:flex;
+   /* margin:100px;
+    padding:50px;*/
+    background-color: snow;
+}
+.woman{
+float: right;
+}
+.principal{
+    display:flex;
 }
